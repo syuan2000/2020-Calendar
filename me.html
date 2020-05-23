@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ABOUT ME</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <script src="jquery-1.11.2.min.js"></script>
+        <script>
+            $( document ).ready(function() {
+                $( "#navbar" ).load( "navbar.html" );
+            });
+
+        </script>
+        <style>
+            #wrapper{
+                background-color: #ffffff;
+                height: 1000px;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:0;
+            }
+            #header{
+                text-align: center;
+                padding-top: 90px;
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 70px;
+                color:#696056;
+            }
+            #caption{
+                margin-top: 5px;
+                color:dimgray;
+                text-align: center;
+                font-family: 'Courgette', cursive;
+                margin-bottom: 40px;
+            }
+            #column {
+                display:flex;
+                flex-flow: row;
+                text-align: center; 
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+
+                }
+            .row{
+                flex:50%;
+            }
+            #image{
+                border: 2px dashed #d4c5b2;
+                border-radius: 5px;
+                box-shadow: 20px 20px rgba(139, 128, 113, 0.87);
+                width: 50px;
+                margin-bottom: 80px;
+                margin-top: 80px;
+                margin-right: 60px;
+            }
+            #text{
+                margin-top: 40px;
+                width: 90%;
+                line-height: 1.8;
+                padding-left:20px;
+                padding-left:20px;
+
+
+            }
+            body{
+                background-image: url(image/b.jpg);
+                font-family: 'Raleway', sans-serif;
+            }
+            hr{
+                    width: 80%;
+                }
+            #line{
+               margin-top: 100px;
+            }
+            #copyright{
+                text-align: center;
+                font-size:12px;
+            }
+
+        </style>
+    </head>
+<body>
+    <div id="wrapper">
+        <p id="header">2020 CALENDAR</p>
+        <p id="caption">== create your own unique journal ==</p>
+        <!--  Load my nav bar  -->
+        <div id="navbar">
+        </div>
+        <div id="column">
+        <img id="image" class="row" src="image/photo.png" alt="">
+        <div id="text" class="row"><h2>ABOUT</h2>
+            <hr>
+            Hi there! Thanks for visit! <br>
+        I'm Eva Li and currently an IT student in MIZZOU.<br>
+            I joined the bullet journal family this year and was pretty fasinated by it. The proccess of design and planning really helps me to be more productive throughout the year. <br>
+            Here's just a tiny place to share my passion of BUJO to people who are new to this area but want to try it :)<br>
+            Welcome to play around and share this website to your family and friends! <br>
+
+            </div>
+        </div>
+        <hr id="line">
+        <p id="copyright">copyright@2020</p>
+    </div>
+    
+</body>
+</html>

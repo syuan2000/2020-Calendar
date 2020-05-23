@@ -1,0 +1,78 @@
+#wrapper{
+                background-color: #ffffff;
+                height: 2300px;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:0;
+            }
+            #header{
+                text-align: center;
+                padding-top: 90px;
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 70px;
+                color:#696056;
+            }
+            .caption{
+                margin-top: 5px;
+                color:dimgray;
+                text-align: center;
+                font-family: 'Courgette', cursive;
+                margin-bottom: 40px;
+                line-height: 1.8;
+                letter-spacing: 1px;
+            }
+            hr{
+                width: 80%;
+                margin-top: 100px;
+            }
+            #copyright{
+                text-align: center;
+                font-size:12px;
+            }
+            body{
+                background-image: url(image/b.jpg);
+                font-family: 'Raleway', sans-serif;
+            }
+            .example{
+                width:50%;
+            }
+            #navbar{
+                margin-bottom: 50px;
+            }
+            p{
+                text-align: center;
+            }
+            #caption{
+                margin-top:80px;
+            }
+            #timeline{
+                margin-top:50px;
+                text-align: left;
+                line-height: 25px;
+                padding:10px;
+                width: 500px;
+                margin-left:30px;
+            }
+            .img{
+                width:80%;
+                height: 18%;
+                margin-left: 100px;
+            }
+            #column {
+                margin-top:30px;
+                display:flex;
+                flex-flow: row;
+                text-align: center; 
+                width: 85%;
+                margin-left: auto;
+                margin-right: auto;
+
+                }
+            .firstrow{
+                flex:60%;
+            }
+            .secondrow{
+                flex:40%;
+            }
